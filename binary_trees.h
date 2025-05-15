@@ -1,3 +1,4 @@
+#include <stddef.h>
 #ifndef BINARY_TREE_HEADER_FILE
 #define BINARY_TREE_HEADER_FILE
 
