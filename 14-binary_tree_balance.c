@@ -15,8 +15,9 @@ if (tree == NULL)
 return (0);
 }
 
-int left_height = tree_height(tree->left);
-int right_height = tree_height(tree->right);
+int left_height, right_height;
+left_height = tree_height(tree->left);
+right_height = tree_height(tree->right);
 
 return (1 + (left_height > right_height ? left_height : right_height));
 }
